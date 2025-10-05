@@ -1,9 +1,10 @@
 import requests
 from textblob import TextBlob
 
+
 # Hugging Face API endpoint
-HF_API_URL = "https://api-inference.huggingface.co/models/distilbert-base-uncased-finetuned-sst-2-english"
-HF_HEADERS = {"Authorization": "Bearer YOUR_HF_TOKEN"}  # replace with your HF token
+HF_API_URL = "https://api-inference.huggingface.co/models/cardiffnlp/twitter-roberta-base-sentiment-latest"
+HF_HEADERS = {"Authorization":f"Bearer ##API KEY##"}  # Replace
 
 
 def analyze_sentiment_api(text):

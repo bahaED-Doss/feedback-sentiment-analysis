@@ -18,7 +18,7 @@ It simulates how companies (Uber, Food Delivery, etc.) analyze customer reviews.
 2. Install dependencies:
 l
 pip install -r requirements.txt
-
+pip install textblob
 
 Add your Hugging Face API token inside ai_api.py:
 
